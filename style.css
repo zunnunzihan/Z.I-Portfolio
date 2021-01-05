@@ -1,0 +1,18 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name{
+    color: orangered;
+}
+.first-half{
+width: 40%;
+float: left;
+margin-left: 5%;
+padding-left: 5%;
+}
+.first-half img{
+    width: 100%;
+}

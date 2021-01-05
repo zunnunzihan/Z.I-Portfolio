@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Ubuntu', sans-serif;
 }
 h1{
@@ -11,8 +12,70 @@ h1{
 width: 40%;
 float: left;
 margin-left: 5%;
-padding-left: 5%;
+padding-left: 2%;
 }
 .first-half img{
     width: 100%;
+}
+.about-area{
+    background-image: url("img/dev-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+    padding-bottom: 155px;
+}
+.profile-button{
+    text-decoration: none;
+    font-weight: 700;
+    background-image: linear-gradient(80deg, tomato, orangered);
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+
+}
+.second-half{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+    .second-half img{
+        width: 100%;
+}
+p{
+    color: dimgray;
+}
+.study-area{
+background-image: url(img/study-bg.png);
+   background-position: right;
+   background-repeat: no-repeat;
+}
+.exp{
+    color: orangered;
+}
+.experiences-area{
+    background-image: url("img/exp-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.exp-box{
+    box-shadow:10px 10px 40px dimgray;
+    border-radius: 5px;
+    height: 50%;
+    border-left: black;
+}
+#web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, lightsalmon,orangered) ;
+    border-image-slice: 1;
+}
+#dm{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, cyan, blue);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
 }
